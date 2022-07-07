@@ -1,0 +1,14 @@
+Client
+1: check into the client directory and install its dependencies using yarn 'install' or npm 'install'
+
+inside interview folder 
+2: install all dependencies using yarn 'install' or npm 'install'
+
+starting up project
+3: yarn start:dev
+The above command will start both project "client " and the "server" concurrently
+
+
+Status of work done
+metrics was implemented but not completed, the question is not understandable
+
