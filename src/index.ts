@@ -17,9 +17,10 @@ const app = express();
 //local dev is 5000; while deploy into production default web server port will be selected 
 const PORT = process.env.PORT || 5000;
 app.set("trust-proxy", true);
+//creating cors to allow only connection coming from the frontend react 
 app.use(cors());
 
-//creating cors to allow only connection coming from the frontend react 
+
 app.use(promMid({
   metricsPath: '/metrics',
   collectDefaultMetrics: true,
